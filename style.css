@@ -555,8 +555,8 @@ main{
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
     padding: 40px;
-    margin-top: 2.5%;
-    margin-left: 2.5%;
+    margin-top: 6%;
+    margin-left: 4%;
     
 }
 .contaier_same_image_two h3{
@@ -599,7 +599,7 @@ main{
     background: url(images/Group\ 40.png);
     background-position: center;
     background-size: cover;
-     object-fit: cover; 
+    object-fit: cover; 
     min-height: 500px;
     border-radius: 15px;
     margin-bottom: 30px;
@@ -741,23 +741,29 @@ main{
 .jamala{
 
     border: 1px solid red ;
-    max-width: 200px;
+    /* max-width: 200px; */
     text-align:center;
-    padding: 5px 0px;
-    border-radius: 8px;
+    /* padding: 5px 0px; */
+    /* border-radius: 8px; */
     background: #FF5400;
-    margin: 0 auto;
-    transform: rotate(-20.628deg);
-    margin-top: 33.5%;
-    margin-left: 70%;
+    /* margin: 0 auto; */
+    transform: rotate(-25.628deg);
+    /* margin-top: 33.5%; */
+    /* margin-left: 70%; */
     border: 0;
     color: #FFF;
+    /* width: auto; */
+    position: absolute;
+    padding: .8rem;
+    border-radius: 5px;
+    margin-top: 9.5%;
+    margin-left: 23%;
     
 }
 
 footer{
 
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: 0 auto;
     margin-top: 120px;
     background: rgba(19, 19, 24, 0.05);
@@ -799,6 +805,109 @@ footer{
     font-size: 1rem;
     text-align: center;
     font-weight: 300;
+}
+.beauty_video{
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.beauty_video iframe{
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.type_1{
+
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: #E8F4FF
+}
+.type_1 img{
+
+    /* width: 100px; */
+    max-width: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+   
+}
+.type_1 h2{
+
+    font-size: 3rem;
+    font-weight: bold;
+    color: #131318;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.type_2{
+
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: #AEC6F4;
+}
+.type_2 h2{
+
+    font-size: 3rem;
+    font-weight: bold;
+    color: #131318;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.type_2 img{
+
+    /* width: 100px; */
+    max-width: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.type_3{
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: #F5E9EE;
+}
+.type_3 h2{
+
+    font-size: 3rem;
+    font-weight: bold;
+    color: #131318;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.type_3 img{
+
+    /* width: 100px; */
+    max-width: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.vicle_trans{
+
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.vicle_text h1{
+
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: black;
+}
+.icone{
+
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    /* justify-content: center; */
+    margin-left: 5px;
+    color: #FF5400;
 }
 
 
@@ -921,8 +1030,9 @@ footer{
     .contaier_same_image_two{
 
         width: 80%;
-        left: 8%;
+        left: 5%;
         margin-top: 18%;
+        
     }
     .same_image_2{
 
@@ -971,9 +1081,15 @@ footer{
     }
     .jamala{
 
-        width: 50%;
-        margin-left:51%;
-        margin-top: 53%;
+        width: auto;
+        /* margin-left:63%; */
+        /* margin-top: 38%; */
+        /* margin-right: 0; */
+        /* margin-bottom: 0; */
+        transform: rotate(0deg);
+        /* align-items: center; */
+        /* justify-content: center; */
+        margin-right: 0;
     }
     .btn{
 
@@ -982,6 +1098,30 @@ footer{
     .icon_date h6{
 
         font-size: 10px;
+    }
+    .vicle_trans{
+
+        flex-direction: column;
+    }
+    .type_3{
+
+        width: 95%;
+        margin: 0 auto;
+    }
+    .type_2{
+
+        width: 95%;
+        margin: 0 auto;
+    }
+    .type_1{
+
+        width: 95%;
+        margin: 0 auto;
+    }
+    .vicle_text{
+
+        width: 95%;
+        margin: 0 auto;
     }
 
        
