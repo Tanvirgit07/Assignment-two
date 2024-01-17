@@ -1123,6 +1123,18 @@ align-items: center;
         width: 95%;
         margin: 0 auto;
     }
+    .type_1 img{
+
+        width: 100%;
+    }
+    .type_2 img{
+
+        width: 100%;
+    }
+    .type_3 img{
+
+        width: 100%;
+    }
 
        
 }
